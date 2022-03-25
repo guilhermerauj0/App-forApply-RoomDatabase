@@ -16,7 +16,7 @@ class SubscriberViewModel(
 
     // NOTIFICAR A VIEW DE QUE ALGO ACONTECEU
     private val _subscriberStateEventData = MutableLiveData<SubscriberState>()
-    val subscriberstateEventData: LiveData<SubscriberState>
+    val subscriberStateEventData: LiveData<SubscriberState>
         get() = _subscriberStateEventData
 
     private val _messageEventData = MutableLiveData<Int>()
